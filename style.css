@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: rgb(130, 176, 202);
+    font-family: 'Outfit', sans-serif; 
+}
+h1{
+    font-size: 16px;
+    padding:  10px 0;
+    
+
+}
+p{
+    font-size: 16px;
+    
+
+    
+}
+.cantainer{
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  /* margin-left: -10px; */
+}
+.middle-cantainer{
+    /* height: 410px; */
+    width: 13rem;
+    margin-top: 100px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding:6px ;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo img{
+    border-radius: 10px;
+    width: 12rem;
+    
+}
